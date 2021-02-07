@@ -64,7 +64,7 @@ body {
 
 #ingredients {
     column-count: 2;
-    background-image: url("/images/list-bg.png");
+    background-image: url("images/list-bg.png");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;

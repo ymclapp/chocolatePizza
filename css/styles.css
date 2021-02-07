@@ -3,9 +3,11 @@
 }
 #delicious {
     font-family: 'Yellowtail'; font-size: 32px;
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
     line-height: 10px;
+    /* display: flexbox; */
+    /* float: left; */
 }
 #best {
     font-family: 'Lateef'; font-size: 10px;
@@ -128,6 +130,52 @@ body {
     padding-top: 10px;
 }
 
-table {
+/* table {
     width: 100%;
+} */
+
+/* #copyrightLogo {
+    margin-top: 40px;
+    float: left;
+    /* position: absolute;
+    top: 50%;
+    display: block;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%); */
+/* } */ 
+
+#empty {
+    position: relative;
+    max-width: 100%;
+    width: auto;
+    overflow: hidden;
+    height: 100px;
+}
+
+#full {
+    position: relative;
+    max-width: 100%;
+    width: auto;
+    overflow: hidden;
+    height: 200px;
+}
+span {
+    /* margin-top: 5px; */
+    width: 100%;
+    border-bottom:1px solid;
+    position: relative;
+    display: block;
+    height: 50px;
+    overflow: visible;
+}
+#copyrightLogo {
+    position: absolute;
+    top: 50%;
+    display: block;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.p {
+    text-align: center;
 }
